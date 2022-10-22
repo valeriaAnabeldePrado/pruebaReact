@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.container {
+  margin: 0 auto;
+  background-color: rgb(45, 12, 71);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.constainerPoke{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem; 
+}
