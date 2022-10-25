@@ -1,0 +1,31 @@
+.containerCard2{
+    height: 30vh;
+    width: 30rem;
+    background-color: beige;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 200ms ease-in-out;
+}
+.containerCard2:hover{
+    transform: translateY(-30px);
+}
+h2{
+    align-self: flex-start;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+
+.imgg{
+    height: 80%;
+    padding: 1.5rem;
+    border-radius: 10px !important;
+}
